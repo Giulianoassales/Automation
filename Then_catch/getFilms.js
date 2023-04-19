@@ -9,6 +9,7 @@ axios.get('https://swapi.dev/api/films/')
       console.log("Episodio:" + all[i].episode_id)
       console.log("Fecha de Estreno:" + all[i].release_date)
     } 
-  })
+  }).catch(error =>
+    console.log("test de catch Films"))
 
   
