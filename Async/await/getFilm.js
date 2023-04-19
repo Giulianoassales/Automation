@@ -9,7 +9,7 @@ async function get_films(){
     for(let i = 0; i<count; i++){
         console.log("Titulo:" + respuesta[i].title)
         console.log("Episodio:" + respuesta[i].episode_id)
-        console.log("2Fecha de Estreno:" + respuesta[i].release_date)
+        console.log("Fecha de Estreno:" + respuesta[i].release_date)
       } 
 }
 
