@@ -21,6 +21,5 @@ module.exports = {
     I.click(this.search_buttom),
     I.wait(15)
   }
-
   // insert your locators and methods here
 }
